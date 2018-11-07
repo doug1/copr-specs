@@ -12,6 +12,7 @@ URL:      https://github.com/EliasOenal/multimon-ng
 Source0:  https://github.com/EliasOenal/multimon-ng/archive/%{commit}/%{name}-%{shortcommit}.tar.gz
 BuildRequires: cmake
 BuildRequires: gcc
+BuildRequires: pulseaudio-libs-devel
 
 %description
 multimon-ng is the successor of multimon. It decodes the following digital
