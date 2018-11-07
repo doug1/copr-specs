@@ -10,6 +10,7 @@ URL:      https://github.com/EliasOenal/multimon-ng
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 
 Source0:  https://github.com/EliasOenal/multimon-ng/archive/%{commit}/%{name}-%{shortcommit}.tar.gz
+BuildRequires: cmake
 
 %description
 multimon-ng is the successor of multimon. It decodes the following digital
